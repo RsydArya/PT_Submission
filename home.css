@@ -206,7 +206,7 @@ span {
     position: relative;
     top: 400px;
     right: 85px;
-    /* width: 100px; */
+    /* width: 900px; */
 }
 
 .year {
@@ -272,3 +272,316 @@ span {
 .img img {
     border-radius: 5px;
 }
+
+/* Responsif */
+
+/* Untuk layar dengan lebar kurang dari atau sama dengan 476px */
+/* @media screen and (max-width: 476px) {
+    nav {
+        padding: 15px 50px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper h1, .srs, .role_head, .year_head {
+        left: 0;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .container1, .container2, .container3, .series1 {
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .judu1, .judul2, .judul3, .judul {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 10px;
+        width: auto;
+        text-align: left;
+    }
+
+    .genre, .year, .popular {
+        position: static;
+        width: auto;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .search_bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+} */
+
+@media screen and (max-width: 758px) {
+
+    nav {
+        display: inline-block;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .logo_ul {
+        margin-bottom: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .logo_ul img {
+        width: 180px;
+        height: 100px;
+    }
+
+    .logo_ul div {
+        margin-left: 3rem;
+        column-gap: 120px;
+    }
+
+    .logo_ul ul li a{
+        font-size: 3em;
+        justify-content: space-between;
+    }
+
+    .search_bar {
+        margin-left: 30px;
+    }
+
+    .search_bar input{
+        padding-right: 46rem;
+        height: 50px;
+        font-size: 2em;
+        border-radius: 40px;
+        height: 60px;
+        text-indent: 30px;
+    }
+
+    .wrapper {
+        padding-left: 1rem;
+    }
+
+    .wrapper h1 {
+        font-size: 3em;
+        margin-left: 7.7rem;
+    }
+
+    .card {
+        /* width: 200px;
+        height: 250px; */
+        margin-bottom: 4rem;
+    }
+
+    .gambar img{
+        display: inline-block;
+        width: 250px;
+        height: 370px;
+    }
+
+    .container1, .container2, .container3 {
+        margin-left: 11rem;
+        column-gap: 100px;
+    }
+
+    .container2 {
+        margin-left: 28.7rem;
+        margin-top: 18rem;
+    }
+
+    .container3 {
+        margin-left: 46.4rem;
+        margin-top: 18.3rem;
+        height: 50rem;
+    }
+
+    .judul {
+        top: 300px;
+        font-size: xx-large;
+    }
+
+    /* .judul h6 {
+        font-size: 20px;
+    }
+
+    .judul p {
+        font-size: 20px;
+    } */
+
+    #onepiece {
+        position: absolute;
+        top: 53.9rem;
+    }
+
+    #slamdunk {
+        position: absolute;
+        left: 12rem;
+        top: 79.2rem
+    }
+
+    #kiky {
+        position: absolute;
+        top: 79.2rem;
+        left: 29.8rem;
+    }
+
+    #totoro {
+        position: absolute;
+        top: 104rem;
+        left: 12rem;
+    }
+
+    #gintama {
+        position: absolute;
+        top: 104rem;
+        left: 29.8rem;
+    }
+
+    #ponyo {
+        position: absolute;
+        top: 104rem;
+        left: 47.4rem;
+    }
+
+    /* Series */
+
+    .series1 {
+        margin-left: 11rem;
+        column-gap: 100px;
+    }
+
+    #blmditau {
+        position: absolute;
+        top: 175rem 
+    }
+
+    #oshinoko {
+        position: absolute;
+        top: 200.3rem;
+        left: 12rem;
+    }
+
+    #eightsix {
+        position: absolute;
+        top: 200.3rem;
+    }
+
+    #bluelock {
+        position: absolute;
+        top: 225rem;
+        left: 12rem;
+    }
+
+    #onepieceseries {
+        position: absolute;
+        top: 225rem;
+        left: 29.8rem;
+    }
+
+    #anya {
+        position: absolute;
+        top: 225rem;
+        /* left: 3rem; */
+    }
+
+    .role_head {
+        top: 230rem;
+        right: 22rem;
+        font-size: 2em;
+    }
+
+    .genre {
+        top: 258rem;
+        left: 13.5rem;
+        width: 135%;
+        height: 400px;
+        font-size: 40px;
+    }
+
+    .year_head {
+        position: absolute;
+        top: 292rem;
+        left: 14rem;
+        font-size: 2em;
+        width: 900px;
+        height: 200px;
+    }
+
+    .year {
+        top: 297rem;
+        left: 14rem;
+        width: 135%;
+        height: 400px;
+        font-size: 40px;
+    }
+
+    .popuhead {
+        font-size: 2em;
+    }
+
+    .popular {
+        top: 325rem;
+        left: 14rem;
+    }
+    
+    .box {
+        column-gap: 20px;
+        width: 900px;
+    }
+
+    .box .img img {
+        width: 200px;
+    }
+
+    .ket {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .footer {
+        margin-top: 300rem;
+        width: 200%;
+        font-size: 2em;
+        height: 15rem;
+    }
+
+    .footer img {
+        width: 180px;
+        height: 100px;
+    }
+
+    #hmc {
+        width: 100px;
+        height: 70px;
+    }
+
+    #pt {
+        width: 120px;
+        height: 100px;
+    }
+}
+
+/* Untuk layar dengan lebar kurang dari atau sama dengan 480px
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    .wrapper h1, .srs, .role_head, .year_head {
+        font-size: large;
+    }
+
+    .genre, .year, .popular {
+        padding: 0 10px;
+    }
+
+    .search_bar input {
+        width: 80%;
+    }
+} */
