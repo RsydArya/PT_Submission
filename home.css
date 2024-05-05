@@ -255,8 +255,8 @@ span {
 .popular {
     color: white;
     position: absolute;
-    top: 1000px;
-    right: 185px;
+    top: 1010px;
+    right: 115px;
 }
 
 .popuhead {
@@ -275,53 +275,20 @@ span {
 
 /* Responsif */
 
-/* Untuk layar dengan lebar kurang dari atau sama dengan 476px */
-/* @media screen and (max-width: 476px) {
-    nav {
-        padding: 15px 50px;
+@media screen and (max-width: 1074px) {
+    
+    .role_head {
+        right: -12rem;
     }
 
-    .wrapper {
-        width: 100%;
+    .year_head {
+        right: -6.8rem;
     }
 
-    .wrapper h1, .srs, .role_head, .year_head {
-        left: 0;
-        margin-left: 20px;
-        text-align: left;
+    .popular {
+        right: -10rem;
     }
-
-    .container1, .container2, .container3, .series1 {
-        flex-wrap: wrap;
-        margin-left: 20px;
-    }
-
-    .judu1, .judul2, .judul3, .judul {
-        position: relative;
-        top: 0;
-        left: 0;
-        margin-top: 0;
-        margin-left: 10px;
-        width: auto;
-        text-align: left;
-    }
-
-    .genre, .year, .popular {
-        position: static;
-        width: auto;
-        margin: 20px 0;
-        padding: 0 20px;
-    }
-
-    .footer {
-        margin-top: 20px;
-    }
-
-    .search_bar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-} */
+}
 
 @media screen and (max-width: 758px) {
 
@@ -427,8 +394,7 @@ span {
 
     #kiky {
         position: absolute;
-        top: 79.2rem;
-        left: 29.8rem;
+        top: 79rem;
     }
 
     #totoro {
@@ -532,7 +498,7 @@ span {
     
     .box {
         column-gap: 20px;
-        width: 900px;
+        width: 800px;
     }
 
     .box .img img {
